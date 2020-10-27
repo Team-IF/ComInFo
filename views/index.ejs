@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>MyCom_Info</title>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/src/css/style.css" />
+    </head>
+
+    <nav class="z-depth-1 navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="/">ComInFo</a>
+        <ul class="navbar-nav">
+            <li class="nav-item" style="padding-left: -2px; padding-right: 50px;">
+                <a class="nav-link" href="http://dev-dia.kro.kr">Contant</a>
+            </li>
+            <li class="nav-item" style="padding-left: -2px; padding-right: 20px;"> 
+                <a class="nav-link" href="https://github.com/dia-7691">Github</a>
+            </li>
+        </ul>
+    </nav>
+
+    <body>
+
+        
+
+        <div class="title_wall">
+            <div class="title">Computer Information</div>
+
+        </div>
+        
+        <!-- <div class="container"> -->
+        <div class="container">
+            <div class="row">
+
+                <div class="info">Host Name</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= hostname %>
+                    </div>
+                </div>
+                <div class="info">OS Type</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= type %>
+                    </div>
+                </div>
+                <div class="info">OS Platform</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= platform %>
+                    </div>
+                </div>
+                <div class="info">CPU Model</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= cpu %>
+                    </div>
+                </div>
+                <div class="info">Total Memory</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= rem %> 
+                    </div>
+                </div>
+                <div class="info">Computer Uptime</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= uptime %> M
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+            
+
+        <!-- </div> -->
+
+        <!-- <div class="info">
+            <div class="card">
+                <div class="card-body"><%= hostname %></div>
+            </div>
+            <div class="typE"><%= type %></div>
+            <div class="platForm"><%= platform %></div>
+        </div> -->
+
+    </body>
+</html>
