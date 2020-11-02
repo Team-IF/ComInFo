@@ -49,7 +49,6 @@ body {
 .hostN {
     background: white;
     position: relative;
-    /* border: 1px solid grey; */
     border-radius: 15px;
     font-size: 20px;
     padding: 20px;
@@ -58,14 +57,6 @@ body {
     margin-top: 10px;
     text-align: center;
 }
-
-/* .info {
-    text-align: center;
-    font-size: 20px;
-    color: white;
-    position: relative;
-
-} */
 
 .end {
     position: relative;
