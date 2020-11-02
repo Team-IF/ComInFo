@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>ComInFo</title>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/src/css/style.css" />
+    </head>
+
+    <body>
+
+        <button type="button" class="btn btn-light darkMode" onclick="location.href='/dark'">Dark Mode</button>
+
+        <div class="title_wall">
+            
+            <div class="title">ComInFo</div>
+            <div class="sub-title">컴퓨터의 간단한 정보를 쉽게 알아보기</div>
+
+        </div>
+        
+        <div class="container">
+            <div class="row">
+
+                <div class="info">Host Name</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= hostname %>
+                    </div>
+                </div>
+                <div class="info">OS Type</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= type %>
+                    </div>
+                </div>
+                <div class="info">OS Platform</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= platform %>
+                    </div>
+                </div>
+                <div class="info">CPU Model</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= cpu %>
+                    </div>
+                </div>
+                <div class="info">Total Memory</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= rem %> GB
+                    </div>
+                </div>
+                <div class="info">Computer Uptime</div>
+                <div class="card shadow-sm p-4 mb-4 bg-white hoverable hostN">
+                    <div class="card-body">
+                        <%= uptime %> M
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="end">
+            <div class="copyright">ⓒ 2020 DIA.</div>
+            <a href="http://dev-dia.kro.kr" class="contact_">Contact</a>
+            <a href="https://github.com/dia-7691" class="github_">Github</a>
+            
+        </div>
+
+    </body>
+</html>

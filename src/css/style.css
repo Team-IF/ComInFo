@@ -1,0 +1,66 @@
+
+body {
+    background: rgb(248, 246, 246);
+    margin: 0;
+    padding: 0;
+}
+
+.title_wall {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    /* background: #434C5E; */
+    background: #D8DEE9;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    z-index: -1;
+
+}
+
+.darkMode {
+    position: relative;
+    top: 1%;
+    left: 92%;
+}
+
+.title {
+    position: relative;
+    color: black;
+    font-size: 60px;
+    /* text-align: center; */
+    top: 45%;
+    text-align: center;
+}
+
+.sub-title {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    /* text-align: center; */
+    top: 45%;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    margin: 0px;
+}
+
+.hostN {
+    background: white;
+    position: relative;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    margin: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.end {
+    position: relative;
+    background: #D8DEE9;
+    width: 100%;
+    text-align: center;
+}
