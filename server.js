@@ -33,4 +33,4 @@ app.get('/dark', async (_, res) => {  //dark mode
     // console.log(cpuName[1])
 })
 
-app.listen(8080, () => console.log('Server on : http://localhost:8080/'))
+app.listen(process.env.PORT || 8080)
