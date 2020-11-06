@@ -11,16 +11,16 @@ body {
     height: 500px;
     /* background: #434C5E; */
     background: #4C566A;
-    margin-top: -40px;
+    margin-top: 0px;
     margin-bottom: 50px;
     z-index: -1;
 
 }
 
 .lightMode {
-    position: relative;
+    position: absolute;
     top: 1%;
-    left: 92%;
+    left: 0.5%;
 }
 
 .title {
